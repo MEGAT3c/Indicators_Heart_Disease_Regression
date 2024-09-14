@@ -1,5 +1,5 @@
 # Indicators_Heart_Disease_Regression
-Hiperparámetros seleccionados
+### Hiperparámetros seleccionados \ 
 a) max_iter=1000
 Descripción: Este parámetro define el número máximo de iteraciones que el optimizador de la regresión logística realizará para encontrar el valor óptimo de los coeficientes.
 Justificación:
