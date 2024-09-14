@@ -1,10 +1,15 @@
 # Indicators_Heart_Disease_Regression
-### Hiperparámetros seleccionados \ 
+### Hiperparámetros seleccionados 
+
 a) max_iter=1000
+
+
 Descripción: Este parámetro define el número máximo de iteraciones que el optimizador de la regresión logística realizará para encontrar el valor óptimo de los coeficientes.
 Justificación:
 Por defecto, max_iter en la regresión logística es 100. Sin embargo, si el conjunto de datos es grande o si la convergencia del optimizador no se alcanza con facilidad, el número de iteraciones predeterminado puede no ser suficiente.
 En este caso, el conjunto de datos es considerablemente grande (más de 300,000 registros). Por eso se aumenta a 1000, para asegurar que el modelo tenga suficiente tiempo para converger y optimizar los coeficientes sin detenerse prematuramente.
+
+
 b) random_state=42
 Descripción: Este parámetro controla la semilla para la aleatoriedad del modelo.
 Justificación:
